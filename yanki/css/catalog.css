@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@&display=swap');
+
+
+
+* {
+   font-family: 'Raleway', sans-serif;
+   padding: 0;
+   margin: 0;
+   transition: all 0.3s ease;
+   box-sizing: border-box;
+   text-decoration: none;
+   outline: none;
+   list-style: none;
+   flex-wrap: wrap;
+}
+
+section {
+   width: 100%;
+   margin-top: 20px;
+}
+
+.header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 87px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   height: 100;
+}
+
+.header .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 1140px;
+   padding: 0 10px;
+   margin: 0 auto;
+}
+
+.header .left .btnMenu {
+   cursor: pointer;
+   display: none;
+}
+
+.header .left .btnMenu .line {
+   background: #444;
+   height: 4px;
+   display: block;
+}
+
+.header .left a {
+   color: #444;
+}
+
+.header .container .middle {
+   position: absolute;
+   display: flex;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.header .container .middle a {
+   color: #E0BEA2;
+   font-size: 40px;
+}
+
+.header .left .btnMenu .line:not(:first-child) {
+   margin-top: 6px;
+}
+
+.header .left .btnMenu .line1 {
+   width: 34px;
+}
+
+.header .left .btnMenu .line2 {
+   width: 26px;
+}
+
+.header .left .btnMenu .line3 {
+   width: 18px;
+}
+
+.header .left {
+   display: flex;
+   align-items: center;
+}
+
+.header .left a {
+   margin-right: 35px;
+}
+
+.header .right i {
+   color: #444;
+   font-size: 22px;
+}
+
+.header .container .right select {
+   background: transparent;
+   border: none;
+   color: #444;
+   margin-left: 30px;
+   font-size: 20px;
+   outline: none;
+   cursor: pointer;
+}
+
+.header .container .right i {
+   color: #444;
+   font-size: 23px;
+   margin-left: 30px;
+   cursor: pointer;
+}
+
+.header .container .left .navBar i {
+   display: none;
+}
+
+.menuPhone {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   background: #f6f6f6;
+   position: fixed;
+   display: none;
+}
+
+.menuPhone .headerPhone {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 10px;
+   align-items: center;
+   height: 70px;
+   background: #444;
+}
+
+.menuPhone .headerPhone .right i {
+   color: #f6f6f6;
+   font-size: 25px;
+   padding-left: 35px;
+}
+
+.menuPhone .headerPhone .left {
+   display: flex;
+   align-items: center;
+   font-size: 25px;
+   color: #f6f6f6;
+}
+
+.menuPhone select {
+   margin-left: 35px;
+   background: transparent;
+   border: none;
+   color: #f6f6f6;
+   font-size: 25px;
+}
+
+.menuPhone .searchMenu {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 10px;
+}
+
+.menuPhone .searchMenu input {
+   background: transparent;
+   border-radius: 30px;
+   border: 1px solid #000;
+   padding: 5px 10px;
+   width: 90%;
+}
+
+
+.menuPhone .searchMenu select {
+   color: #000;
+   cursor: pointer;
+}
+
+.menuPhone .MenuPhone {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+}
+
+.menuPhone .MenuPhone ul {
+   text-align: center;
+   width: 100%;
+   padding: 0 10px;
+}
+
+.menuPhone .MenuPhone ul li {
+   padding: 10px 0;
+   border-top: 1px solid #444;
+}
+
+.menuPhone .MenuPhone ul li a {
+   color: #444;
+}
+
+section .come a {
+   color: #444;
+}
+
+section .come a i {
+   font-size: 10px;
+   color: #E0BEA2;
+}
+
+section {
+   margin: 0 auto;
+   width: 1140px;
+   height: 10px;
+   margin-top: 80px;
+   padding: 0 10px;
+}
+
+section .container {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 50px;
+}
+
+section .container .catalog ul a {
+   color: #444;
+}
+
+section .container .catalog ul li {
+   padding: 5px 0;
+}
+
+section .container .catalog ul p {
+   font-size: 25px;
+}
+
+section .container .catalog {
+   flex-basis: 15%;
+}
+
+section .container .tovar {
+   flex-basis: 82%;
+}
+
+section .container .tovar select {
+   border: none;
+   color: #444;
+   margin-right: 20px;
+   cursor: pointer;
+}
+
+section .container .tovar .box {
+   position: relative;
+   width: 32%;
+   margin-top: 30px;
+}
+
+section .container .tovar .box .info-tovar {
+   text-align: center;
+}
+
+section .container .tovar .container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: -10px;
+}
+
+section .container .tovar .container .box .heart-tovar {
+   position: absolute;
+   top: 0;
+   right: 0;
+   background: #E0BEA2;
+   width: 50px;
+   height: 50px;
+   border-radius: 0 0 0 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #f6f6f6;
+   font-size: 25px;
+   cursor: pointer;
+}
+
+section .container .tovar .container .box img {
+   width: 100%;
+}
+
+section .container .tovar .container .box .info-tovar .color-tovar {
+   display: flex;
+   justify-content: space-between;
+   width: 70px;
+   margin: 0 auto;
+   margin-top: 5px;
+}
+
+section .container .tovar .container .box .info-tovar .saze-tovar {
+   margin-top: 5px;
+}
+
+section .container .tovar .container .box .info-tovar .saze-tovar a {
+   color: #444;
+}
+
+section .container .tovar .container .box .info-tovar .name-tovar {
+   margin-top: 5px;
+}
+
+section .container .tovar .container .box .info-tovar .price-tovar {
+   margin-top: 5px;
+}
+
+section .container .tovar .container .box .info-tovar .color-tovar .color {
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+}
+
+section .container .tovar .container .box .info-tovar .color-tovar .red {
+   background: #f00;
+}
+
+section .container .tovar .container .box .info-tovar .color-tovar .pink {
+   background: pink;
+}
+
+section .container .tovar .container .box .info-tovar .color-tovar .blue {
+   background: #00f;
+}
+
+@media only screen and (max-width:960px) {
+
+   .header .container .right select {
+      display: none;
+   }
+
+}
+
+@media only screen and (max-width:700px) {
+   .header .container .middle {
+      left: 0;
+      margin-left: 110px;
+   }
+
+   .header .navBar {
+      display: none;
+   }
+
+   .header .left .btnMenu {
+      display: block;
+   }
+
+   .menuPhone {
+      display: block;
+      transform: translate(-100%);
+   }
+
+   .header .container .middle img {
+      width: 100px;
+   }
+
+   .footer .container .box {
+      flex-basis: 100%;
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+}
+
+@media only screen and (max-width:470px) {
+
+   .header .container .right .icon-search,
+   .header .container .right .icon-user {
+      display: none;
+   }
+
+   .footer .container .box .item {
+      width: 100%;
+      margin-top: 30px;
+   }
+
+   .header .container .left .navBar {
+      width: 50%;
+   }
+}
+
+@media only screen and (max-width:425px) {
+   .headerPhone img {
+      width: 100px;
+   }
+}
+
+@media only screen and (max-width:320px) {
+
+   .menuPhone select,
+   .menuPhone .left i,
+   .menuPhone .headerPhone .right i {
+      font-size: 20px;
+   }
+
+   .menuPhone .headerPhone select {
+      margin-left: 10px;
+   }
+}
